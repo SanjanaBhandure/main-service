@@ -1,21 +1,23 @@
-**Employee Management API – Problem Statement
-**
+**Employee Management API – Problem Statement**
+
 This project implements a RESTful API for managing employee data in MongoDB. The API provides the following features:
+
 **Create Employee** – Store employee details such as name, email, phone, address, date of birth, position, etc.
 **Fetch Employee Data Dynamically** – Return all employee records with only the fields requested by the client. For example, if 5 fields are requested, each record will include exactly those 5 fields.
 
-**Key Requirements:
-**
-Built with Spring Boot and MongoDB
-Service layer with interface + implementation
-Dynamic field selection when fetching data
-Standardized API response format (ApiResponse)
-Proper error handling and logging
+**Key Requirements:**
+- Built with Spring Boot and MongoDB
+- Service layer with interface + implementation
+- Dynamic field selection when fetching data
+- Standardized API response format (ApiResponse)
+- Proper error handling and logging
 
-**Sample Use Case:
-**
-Input: ["name", "email", "city", "position", "phone"]
-Output: All employee records with only the requested fields
+**Sample Use Case:**
+**Input:** 
+["name", "email", "city", "position", "phone"]
+
+**Output:** 
+All employee records with only the requested fields
 
 
 
